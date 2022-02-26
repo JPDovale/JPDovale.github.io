@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiceStore</title>
+    <link rel="stylesheet" href="/projeto/css/style.css">
+    <link rel="icon" href="/projeto/assets/icons/icon-window.png">
+</head>
+<body>
+    <header class="head">
+        
+        <div class="conteiner">
+            <div>
+                <button class="buttonFilterService" onclick = openWindowFilterServise()>
+                    <img id="buttonFilterService" src="/projeto/assets/icons/icon-filter-services.png" alt="buttonFilterService">
+                </button>
+                
+            </div>
+                
+            <div class="title">
+
+                <h1> Service Store </h1>
+            </div>
+
+            <div class="profileOptions" onclick = openWindowProfileOpitions()>
+
+                <img id="profileOptions" src="/projeto/assets/icons/icon-profile.png" alt="profile">
+                
+            </div>
+        </div>
+
+        <div class = "boxs">
+            <div id ="windowFilterService">
+                <div class="typeServices">
+                    <p onclick="">Adovogados</p>
+
+                </div>
+            </div>
+            <div id ="windowProfileOptions">
+                <p>setings</p>
+            </div>
+        </div>
+    </header>
+    
+    <script src="/projeto/scripts/logical.js"></script>
+    <script src="/projeto/scripts/interface.js"></script>
+</body>
+</html>

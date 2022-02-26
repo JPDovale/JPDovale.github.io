@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    .conteiner{
+        background-color: rgb(4, 0, 65);
+        display: flex;
+        position: relative;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.575) 0px 20px 50px;
+    }
+    
+        .buttonFilterService{
+            height: 25px;
+            width: 25px;
+            margin-left: 10px;
+            border: none;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+            #buttonFilterService{
+                height: 100%;
+                width: 100%;
+                opacity: 60%;
+            }
+                #buttonFilterService:hover{
+                    opacity: 100%;
+                    transition: opacity, .5s;
+                }
+
+        
+        .title{
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: rgb(255, 248, 143);
+        }
+        .profileOptions{
+            height: 25px;
+            width: 25px;
+            margin-right: 10px;
+        
+        }
+            #profileOptions{
+                height: 100%;
+                width: 100%;
+                opacity: 60%;
+            }
+                #profileOptions:hover{
+                    opacity: 100%;
+                    transition: opacity, .5s;
+                }
+    .boxs{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+        #windowFilterService{
+            display:none;
+            position: absolute;
+            height: 100%;
+            width: 250px;
+            box-shadow: rgba(0, 0, 0, 0.541) 12px 0px 50px;
+            background-color: rgb(4, 126, 134);
+        }
+            .typeServices{
+                color: white;
+                margin-top: 12px;
+                margin-left: 12px;
+            }
+        #windowProfileOptions{
+            display: none;
+            color: white;
+            text-align: right;
+            padding: 15px;
+            padding-right: 25px;
+            margin-top: 10px;
+            margin-right: 10px;
+            border-radius: 10px;
+            align-self: flex-end;
+            position: absolute;
+            height: auto;
+            width: 200px;
+            background-color: rgb(4, 126, 134);
+        }
