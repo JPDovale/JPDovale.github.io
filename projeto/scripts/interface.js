@@ -15,7 +15,7 @@ let windowProfileOpitions = document.getElementById("windowProfileOptions")
     } else{
         windowFilterServise.style.display = 'none'
         BODY.style.display = 'none'
-        feedNone.style.display ='block'
+        feedNone.style.display ='flex'
         bar.style.display = 'flex'
          windowProfileOpitions.style.display = 'none'
     }
