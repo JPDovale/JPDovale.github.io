@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-attachment: fixed;
+    /* background-image: linear-gradient(to top, #ECB365 0%, #241501 80%); */
+    background-image: linear-gradient( black, rgb(53, 53, 53) 120%)
+}
+
 #body{
     background-color: rgba(0, 0, 0, 0.747);
     top: 0px;
@@ -12,7 +18,9 @@
     height: 100%;
 }
     .conteiner{
-        background-color: rgb(4, 0, 65);
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #ECB365;
         display: flex;
         position: relative;
         padding: 15px;
@@ -72,7 +80,7 @@
             height: 100%;
             width: 100%;
             box-shadow: rgba(0, 0, 0, 0.541) 12px 0px 50px;
-            background-color: rgb(4, 126, 134);
+            background-color: #ECB365;
         }
             .typeServices{
                 color: white;
@@ -92,12 +100,12 @@
             position: absolute;
             height: auto;
             width: 200px;
-            background-color: rgb(4, 126, 134);
+            background-color: #ECB365;
         }
         
     #searchBarr{
         display: flex;
-        background-color: tomato;
+        background-color: #064663;
         justify-content: center;
         align-items: center;
     }
@@ -158,7 +166,7 @@
             padding: 10px;
             display: none;
             flex-direction: column;
-            background-color: tomato;
+            background-color: #ECB365;
         }
             .filt{
                 margin-bottom: 5px;
@@ -197,7 +205,8 @@
         .buttonFeedBox{
             width: 100%;
             height: 100%;
-            background-color: tomato;
+            color: white;
+            background-image: linear-gradient(to top, #064663 0%,  #041C32 100%);
             border: none;
             border-radius: 10px;
         }
