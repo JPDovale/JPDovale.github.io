@@ -3,7 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+#body{
+    background-color: rgba(0, 0, 0, 0.747);
+    top: 0px;
+    display:none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
     .conteiner{
         background-color: rgb(4, 0, 65);
         display: flex;
@@ -17,7 +24,7 @@
         .buttonFilterService{
             height: 25px;
             width: 25px;
-            margin-left: 10px;
+            margin-left: 5px;
             border: none;
             background-color: rgba(0, 0, 0, 0);
         }
@@ -34,14 +41,14 @@
 
         
         .title{
-            font-size: 14px;
+            font-size: 9px;
             letter-spacing: 2px;
             color: rgb(255, 248, 143);
         }
         .profileOptions{
             height: 25px;
             width: 25px;
-            margin-right: 10px;
+            margin-right: 5px;
         
         }
             #profileOptions{
@@ -86,3 +93,75 @@
             width: 200px;
             background-color: rgb(4, 126, 134);
         }
+        
+    #searchBarr{
+        display: flex;
+        background-color: tomato;
+        justify-content: center;
+        align-items: center;
+    }
+        .search{
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+            #pesq{
+                color: white;
+                border: none;
+                width: 100%;
+                height: 25px;
+                padding: 17px;
+                border: none;
+                border-radius: 10px;
+                box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.596);
+                background-color: rgba(133, 133, 133, 0.836);
+            }
+            .enterPesq{
+                position: absolute;
+                align-self: flex-end;
+                margin-right: 5px;
+                height: 23px;
+                width: 23px;
+                border: none;
+                background-color: rgba(240, 248, 255, 0);
+            }
+            #imgPesq{
+                padding: 3px;
+                border-radius: 10px;
+                box-shadow: -1px 3px 7px rgba(0, 0, 0, 0.301);
+                display: flex;
+                height: 100%;
+                width: 100%;
+            }
+        .epeciflyFilter{
+            margin-right: 10px;
+            align-self: center;
+            
+        }
+            .buttonEspeciflyFilter{
+                border: none;
+                background-color: rgba(240, 248, 255, 0);
+                height: 35px;
+                width: 35px;
+            }
+                #especiflyFilterImg{
+                    padding: 5px;
+                    height: 100%;
+                    width: 100%;
+                }
+        #boxFilter{
+            margin-right: 5px;
+            margin-top: 5px;
+            padding: 10px;
+            display: none;
+            flex-direction: column;
+            align-items: start-end;
+            margin-left: 55%;
+            background-color: tomato;
+        }
+            .filt{
+                margin-bottom: 5px;
+            }
