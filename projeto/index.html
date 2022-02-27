@@ -11,8 +11,9 @@
 <body>
     <div id="body"></div>
     <header class="head">
-        
+    <!-- cabeçalho -->
         <div class="conteiner">
+        <!-- seleção de tipos de serviço -->
             <div>
                 <button class="buttonFilterService" onclick = openWindowFilterServise()>
                     <img id="buttonFilterService" src="/projeto/assets/icons/icon-filter-services.png" alt="buttonFilterService">
@@ -24,9 +25,9 @@
 
                 <h1> Service Store </h1>
             </div>
-
-            <div class="profileOptions" onclick = openWindowProfileOpitions()>
-
+            <!-- openWindowProfileOpitions -->
+            <div class="profileOptions" onclick = openWindowFilterServise()>
+            <!-- Configurações e gerenciamento de usuario -->
                 <img id="profileOptions" src="/projeto/assets/icons/icon-profile.png" alt="profile">
                 
             </div>
@@ -43,10 +44,12 @@
                 <p>setings</p>
             </div>
         </div>
+    <!-- Fim do cabeçalho -->
     </header>
     
-    <section >
-        <div id="searchBarr">
+    <section> 
+    <!-- Aba de pesquisa -->
+        <div class="none" id="searchBarr">
             <div class="search">
                 <input type="text" id="pesq">
                 <div class="enterPesq">
@@ -63,6 +66,7 @@
             </div>
         </div>
         <div id="boxFilter">
+        <!-- Filtro de região, preços, qualificação, etc -->
             <input class="filt" type="checkbox" name="" id="">
             <input class="filt" type="checkbox" name="" id="">
             <input class="filt" type="checkbox" name="" id="">
@@ -73,7 +77,77 @@
             <input class="filt" type="checkbox" name="" id="">
             <input type="submit" name="" id="">
         </div>
+    <!-- Fim da aba de pesquisa -->
     </section>
+
+    <section id="feed">
+    <!-- feed de recomendações -->
+        <div class="feedBox">
+            <button class="buttonFeedBox"  onclick="openService()">
+                <div class="profileUser">
+                    <img class="imgProfileUser"src="/projeto/assets/photos/adalbertoVictorio.jpg" alt="icon-feed">
+                </div>
+                <div class="userId">
+                    <h3>Adalberto Victótrio</h3>
+                    <h4>Advogado</h2>
+                </div>
+                <div class="descriptionUser">
+                    <p>
+                        essa é a minha descrição muito legal. eu tenho x anos e trbalho na empresa x. No tempo livre presto o seviçox
+                    </p>
+                </div>
+            </button>
+        </div>
+        <div class="feedBox">
+            <button class="buttonFeedBox"  onclick="openService()">
+                <div class="profileUser">
+                    <img class="imgProfileUser"src="/projeto/assets/photos/brunaSilva.jpg" alt="icon-feed">
+                </div>
+                <div class="userId">
+                    <h3>Bruna Silva</h3>
+                    <h4>Contadora</h2>
+                </div>
+                <div class="descriptionUser">
+                    <p>
+                        essa é a minha descrição muito legal. eu tenho x anos e trbalho na empresa x. No tempo livre presto o seviçox
+                    </p>
+                </div>
+            </button>
+        </div>
+        <div class="feedBox">
+            <button class="buttonFeedBox"  onclick="openService()">
+                <div class="profileUser">
+                    <img class="imgProfileUser" src="/projeto/assets/photos/eduardaVital.jpeg" alt="icon-feed">
+                </div>
+                <div class="userId">
+                    <h3>Eduarda Vital</h3>
+                    <h4>Voluntaria</h2>
+                </div>
+                <div class="descriptionUser">
+                    <p>
+                        essa é a minha descrição muito legal. eu tenho x anos e trbalho na empresa x. No tempo livre presto o seviçox
+                    </p>
+                </div>
+            </button>
+        </div>
+        <div class="feedBox">
+            <button class="buttonFeedBox"  onclick="openService()">
+                <div class="profileUser">
+                    <img class="imgProfileUser" src="/projeto/assets/photos/felipeCarlos.png" alt="icon-feed">
+                </div>
+                <div class="userId">
+                    <h3>Felipe Carlos</h3>
+                    <h4>Engenheiro</h2>
+                </div>
+                <div class="descriptionUser">
+                    <p>
+                        essa é a minha descrição muito legal. eu tenho x anos e trbalho na empresa x. No tempo livre presto o seviçox
+                    </p>
+                </div>
+            </button>
+        </div>
+    </section>
+
     <script src="/projeto/scripts/logical.js"></script>
     <script src="/projeto/scripts/interface.js"></script>
 </body>
