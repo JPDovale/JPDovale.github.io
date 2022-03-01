@@ -1,0 +1,58 @@
+.BGDARK2{
+    background-color: #16191d;
+    justify-content: ;
+}
+.TEXTR{
+    text-align: right;
+
+}
+    @media screen and (max-width: 575px) {
+    .PTEXT{
+    text-align: left;
+       
+    }
+}
+.SMTEXT{
+    font-size: 13px;
+}
+.PTEXT{
+    font-size: 20px;
+}
+    @media screen and (max-width: 575px) {
+        .PTEXT{
+            font-size: 10px;
+        }
+    }
+.H1TEXT{
+    font-size: 50px;
+}
+    @media screen and (max-width: 575px) {
+        .H1TEXT{
+            font-size: 20px;
+        }
+    }
+    .H2TEXT{
+        font-size: 30px;
+    }
+        @media screen and (max-width: 575px) {
+            .H2TEXT{
+                font-size: 15px;
+            }
+        }
+.BG2{
+    background-image: url(/portifolio/assets/6899259-dark-background-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.BOXIMG{
+    max-width: 300px;
+}
+    @media screen and (max-width: 575px) {
+        .BOXIMG{
+            max-width: 100px;
+        }
+    }
+.BOXSKILS{
+    width: 700px;
+}
