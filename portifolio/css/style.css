@@ -1,6 +1,5 @@
 .BGDARK2{
     background-color: #16191d;
-    justify-content: ;
 }
 .TEXTR{
     text-align: right;
@@ -16,7 +15,7 @@
     font-size: 13px;
 }
 .PTEXT{
-    font-size: 20px;
+    font-size: 18px;
 }
     @media screen and (max-width: 575px) {
         .PTEXT{
@@ -24,7 +23,7 @@
         }
     }
 .H1TEXT{
-    font-size: 50px;
+    font-size: 40px;
 }
     @media screen and (max-width: 575px) {
         .H1TEXT{
@@ -54,5 +53,18 @@
         }
     }
 .BOXSKILS{
-    width: 700px;
+    width: 376px;
 }
+    @media screen and (max-width: 575px) {
+        .BOXSKILS{
+            width: 157px;
+        }
+    }
+.PROG{
+    width: 250px;
+}
+    @media screen and (max-width: 575px) {
+        .PROG{
+            width: 180px;
+        }
+    }
