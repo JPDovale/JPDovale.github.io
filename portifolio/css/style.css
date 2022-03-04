@@ -5,39 +5,22 @@
     text-align: right;
 
 }
-    @media screen and (max-width: 575px) {
-    .PTEXT{
-    text-align: left;
-       
-    }
-}
+    
 .SMTEXT{
     font-size: 13px;
 }
 .PTEXT{
     font-size: 18px;
 }
-    @media screen and (max-width: 575px) {
-        .PTEXT{
-            font-size: 10px;
-        }
-    }
+    
 .H1TEXT{
     font-size: 40px;
 }
-    @media screen and (max-width: 575px) {
-        .H1TEXT{
-            font-size: 20px;
-        }
-    }
+    
     .H2TEXT{
         font-size: 30px;
     }
-        @media screen and (max-width: 575px) {
-            .H2TEXT{
-                font-size: 15px;
-            }
-        }
+        
 .BG2{
     background-image: url(/portifolio/assets/6899259-dark-background-2.jpg);
     background-size: cover;
@@ -47,33 +30,41 @@
 .BOXIMG{
     max-width: 300px;
 }
-    @media screen and (max-width: 575px) {
-        .BOXIMG{
-            max-width: 100px;
-        }
-    }
+    
 
     .ICONIMG{
         max-width: 150px;
     }
-        @media screen and (max-width: 575px) {
-            .ICONIMG{
-                max-width: 50px;
-            }
-        }
+       
 .BOXSKILS{
     width: 376px;
 }
-    @media screen and (max-width: 575px) {
-        .BOXSKILS{
-            width: 157px;
-        }
-    }
+    
 .PROG{
     width: 250px;
 }
-    @media screen and (max-width: 575px) {
-        .PROG{
-            width: 180px;
-        }
+@media screen and (max-width: 575px) {
+    .PTEXT{
+    text-align: left;
+    font-size: 10px;
     }
+    .H1TEXT{
+        font-size: 20px;
+    }
+    .H2TEXT{
+        font-size: 15px;
+    }
+    .BOXIMG{
+        max-width: 100px;
+    }
+    .ICONIMG{
+        max-width: 50px;
+    }
+    .BOXSKILS{
+        width: 157px;
+    }
+    .PROG{
+        width: 180px;
+    }
+}
+    

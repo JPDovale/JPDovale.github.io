@@ -1,0 +1,89 @@
+@font-face {
+    font-family: DMD;
+    src: url(/portifolio/assets/fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: DMDParagrafo;
+    src: url(/portifolio/assets/fonts/AmaticSC-Regular.ttf);
+}
+.BG{
+    background-image: linear-gradient(45deg,#351047, #2D0D3D, #120A26,#041120,#051A33, #0b2546);
+    background-size: 300%, 300%;
+    animation: BG 8s ease infinite;
+}
+    @keyframes BG {
+        0%{
+            background-position: 0% 50%;
+        }50%{
+            background-position: 50% 100%;
+        }100%{
+            background-position: 0% 50%;
+        }
+    }
+
+.BG1{
+    background-color: #041120;
+}
+.BG2{
+    background-color: #051A33;
+}
+.DMDFONT1{
+    font-family: DMD;
+    letter-spacing: 4px;
+    color: #e6f1ff;
+    font-size: 60px;
+}
+.DMDFONT2{
+    font-family: DMD;
+    letter-spacing: 0.5px; 
+    font-size:20px;
+    color: #e6f1ff;
+}
+.DMDFONTP{
+    font-family: DMDParagrafo;
+    font-size: 30px;
+}
+.TEXTBOX{
+    width: 600px;
+    height: 100%;
+}
+.BOXIMG{
+    width: 400px;
+}
+.P1{
+    font-family: 'Times New Roman', Times, serif; font-size: 20px;
+}
+.P2{
+    font-family: 'Times New Roman', Times, serif; font-size: 16px;
+}
+.IMGDEP{
+    width: 45%; 
+}
+    @media screen and (max-width: 575px) {
+        .IMGDEP{
+            width: 100%;
+            display: flex;
+            flex-direction: column; 
+        }
+        .P1{
+            font-size: 13px;
+        }
+        .P2{
+            font-size: 11px;
+        }
+        .DMDFONT1{
+            font-size: 25px;
+        }
+        .DMDFONT2{
+            font-size: 15px;
+        }
+        .DMDFONTP{
+            font-size: 17px;  
+        }
+        .TEXTBOX{
+            width: 270px;
+        }
+        .BOXIMG{
+            width: 230px;
+        }
+    }
