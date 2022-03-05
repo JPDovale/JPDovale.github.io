@@ -11,6 +11,7 @@ let city = document.getElementById("city")
 let state = document.getElementById("state")
 const DB = firebase.firestore()
 
+
 function finishShop2(){
     DB.collection("venda").add({
     nome: NAME11.value,
@@ -24,5 +25,15 @@ function finishShop2(){
     cidade: city.value,
     estado: state.value,
   },{marge: true})
- 
+  
+  setTimeout( redirect=>{
+  window.location.replace("https://mpago.la/1snkPSC")
+}, 1000)
 }
+
+
+
+// DB.collection("venda").get().then((snapshot) =>{snapshot.forEach((doc)=>{
+//   let id =doc.id
+//   DB.collection("venda").doc(id).delete()
+// })})
