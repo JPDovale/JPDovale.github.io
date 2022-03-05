@@ -59,6 +59,9 @@
 .IMGDEP{
     width: 45%; 
 }
+.ICONIMG{
+    max-width: 150px;
+}
     @media screen and (max-width: 575px) {
         .IMGDEP{
             width: 100%;
@@ -85,5 +88,8 @@
         }
         .BOXIMG{
             width: 230px;
+        }
+        .ICONIMG{
+            max-width: 50px;
         }
     }
