@@ -8,6 +8,7 @@
 }
 .BG{
     background-image: linear-gradient(45deg,#351047, #2D0D3D, #120A26,#041120,#051A33, #0b2546);
+    background-repeat: repeat;
     background-size: 300%, 300%;
     animation: BG 8s ease infinite;
 }
@@ -31,7 +32,7 @@
     font-family: DMD;
     letter-spacing: 4px;
     color: #e6f1ff;
-    font-size: 60px;
+    font-size: 60px;    
 }
 .DMDFONT2{
     font-family: DMD;
