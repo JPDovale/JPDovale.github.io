@@ -40,7 +40,7 @@ finishShop3: function(){
   if(this.ENT.value === ''){
     alert("Coloque o seu nome")
   }else{
-    DB.collection("venda").add({
+    DB.collection("aprov").add({
     nome: this.ENT.value,
     pagamento: "APROVADO",
   },{marge: true})
